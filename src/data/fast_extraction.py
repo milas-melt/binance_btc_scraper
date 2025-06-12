@@ -12,9 +12,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor
 
 import pandas as pd
-from tqdm import tqdm
-
-from src.config import BASE_URL, RAW_DATA_DIR, LOG_FILE, MAX_WORKERS, INTERVAL
+from src.config import BASE_URL, LOG_FILE, MAX_WORKERS, INTERVAL
 
 # Disable SSL verification warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
