@@ -1,0 +1,101 @@
+# Data
+# Data - Ignore all files but keep folders
+/data/raw/*
+/data/results/*
+/data/processed/*
+/data/logs/*
+
+# Keep folders by ignoring everything except .gitkeep
+!/data/raw/.gitkeep
+!/data/results/.gitkeep
+!/data/processed/.gitkeep
+!/data/logs/.gitkeep
+
+# Allow specific file
+!/data/raw/CME_BTC_Futures.csv
+
+
+
+# ======================== PYTHON FILES ======================== #
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment folders
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# PyInstaller build files
+dist/
+build/
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# ======================== LOG FILES ======================== #
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# CSVs and other large datasets
+# *.csv
+*.zip
+
+# ======================== SYSTEM FILES ======================== #
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ======================== IDE FILES ======================== #
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook metadata
+*.nbmetadata
+
+# ======================== ENVIRONMENT FILES ======================== #
+
+# Python environment files
+.env
+.env.*
+
+# ======================== PACKAGE MANAGEMENT ======================== #
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Conda
+conda-meta/
+*.conda
+*.yaml
